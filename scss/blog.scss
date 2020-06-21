@@ -1,0 +1,30 @@
+$breakpoints: (
+  'sm': 'screen and (max-width: 576px)',
+  'md': 'screen and (max-width: 550px)',
+  'lg': 'screen and (max-width: 800px)',
+  'xl': 'screen and (max-width: 1040px)',
+) !default;
+
+@mixin mq($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+.blogitems{
+  margin-top: 100px;
+  img{
+    width: 240px;
+  }
+  .item{
+    width: 240px;
+    padding: 5px;
+    box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.136);
+    p{
+      text-align: left;
+      font-size: 12px;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+  }
+}

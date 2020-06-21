@@ -1,0 +1,41 @@
+$breakpoints: (
+  'sm': 'screen and (max-width: 576px)',
+  'md': 'screen and (max-width: 550px)',
+  'lg': 'screen and (max-width: 800px)',
+  'xl': 'screen and (max-width: 1040px)',
+) !default;
+
+@mixin mq($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+.staff{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  p{
+    text-align: center;
+  }
+}
+
+.staffimg{
+  width: 80%;
+  margin: auto;
+  img{
+    width: 100%;
+  }
+}
+
+.recruitinfo{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 150px;
+  .info1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  h2{
+    font-size: 30px;
+  }
+}

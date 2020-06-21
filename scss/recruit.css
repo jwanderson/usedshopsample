@@ -1,0 +1,33 @@
+.staff {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.staff p {
+  text-align: center;
+}
+
+.staffimg {
+  width: 80%;
+  margin: auto;
+}
+
+.staffimg img {
+  width: 100%;
+}
+
+.recruitinfo {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.recruitinfo .info1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.recruitinfo h2 {
+  font-size: 30px;
+}
+/*# sourceMappingURL=recruit.css.map */

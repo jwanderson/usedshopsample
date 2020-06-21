@@ -1,0 +1,153 @@
+h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
+.form {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 200px;
+  height: 235px;
+}
+
+@media screen and (max-width: 800px) {
+  .form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .form p {
+    font-size: 12px;
+  }
+}
+
+.name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.name > div:nth-child(1) {
+  width: 30%;
+  border: 1px solid;
+  border-right: none;
+  border-bottom: none;
+}
+
+.name > div:nth-child(2) {
+  width: 70%;
+  border: 1px solid;
+  border-bottom: none;
+}
+
+.name p {
+  text-align: center;
+}
+
+.name input {
+  width: 90%;
+  position: relative;
+  left: 20px;
+  top: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .name input {
+    left: 10px;
+    top: 8px;
+  }
+}
+
+.mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.mail > div:nth-child(1) {
+  width: 30%;
+  border: 1px solid;
+  border-right: none;
+  border-bottom: none;
+}
+
+.mail > div:nth-child(2) {
+  width: 70%;
+  border: 1px solid;
+  border-bottom: none;
+}
+
+.mail p {
+  text-align: center;
+}
+
+.mail input {
+  width: 90%;
+  position: relative;
+  left: 20px;
+  top: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .mail input {
+    left: 10px;
+    top: 8px;
+  }
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.text > div:nth-child(1) {
+  width: 30%;
+  border: 1px solid;
+  border-right: none;
+  height: 143px;
+}
+
+.text > div:nth-child(2) {
+  width: 70%;
+  border: 1px solid;
+}
+
+.text p {
+  text-align: center;
+  margin: 0;
+  height: 50px;
+  position: relative;
+  top: 60px;
+}
+
+.text textarea {
+  width: 90%;
+  position: relative;
+  left: 20px;
+  top: 15px;
+  height: 110px;
+}
+
+@media screen and (max-width: 800px) {
+  .text textarea {
+    left: 10px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
